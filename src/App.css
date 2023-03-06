@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 500px;
+}
+th {
+  border: 2px solid black;
+  height: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+nav {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  width: 100px;
+}
+
+.search {
+  width: 250px;
+  height: 30px;
+  /* background-color: antiquewhite; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 40px;
+  border-color: #ebb217;
+  margin-left: 30px;
+}
+
+.inp-search {
+  /* margin-left: 10px; */
+  height: 13px;
+  border: none;
+  background-color: transparent;
+}
+
+.inp-search:focus {
+  /* border-color: transparent; */
+  /* border: none; */
+
+  outline: none !important;
+}
+
+.lupa {
+  width: 20px;
+}
+
+.basket {
+  width: 60px;
+  height: 60px;
+  margin-left: 40px;
+}
+
+.bascet-a {
+  font-size: small;
+  margin-right: 50px;
+}
+
+a:hover {
+  /* background-color: #ebb217; */
+  text-underline-offset: 10px;
+  color: #ebb217;
+  transition: 0.3s;
+  text-decoration: underline solid #ebb217 3px;
+
+  /* text-decoration-thickness: 10%; */
+}
+
+/* footer */
+footer {
+  margin-top: 50px;
+  background-color: grey;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.p1 {
+  width: 50px;
+  margin: 30px;
+}
+
+.first {
+  margin-left: 30px;
+}
+
+.footLogo {
+  margin-top: 90px;
+}
+
+li {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.insta {
+  width: 60px;
+  height: 60px;
+}
+
+.telega {
+  width: 60px;
+  height: 60px;
+}
+
+.wots {
+  width: 60px;
+  height: 60px;
+}
+
+.lastList {
+  margin-top: 80px;
+}
+
+.secondList {
+  margin-top: 80px;
+  gap: 10px;
+}
+
+.catal {
+  color: #ebb217;
 }
